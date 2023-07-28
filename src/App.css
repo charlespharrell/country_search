@@ -1,0 +1,23 @@
+:root{
+    --white: white; 
+    --blue: hsl(209, 23%, 22%);
+    --body: hsl(207, 26%, 17%);
+    --whitesmoke: whitesmoke;
+    --white:white;
+    --black:black;
+}
+*{
+    margin: 0;
+    top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    min-height: 100vh;
+    background-color:var(--body) ;
+    
+}
+.App.active{
+    height: 100vh;
+    background-color:var(--white) ;
+}
